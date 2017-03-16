@@ -2,7 +2,7 @@ var elasticsearch = require('elasticsearch');
 var express = require('express');
 var request = require('request');
 
-var minutes = 15;
+var minutes = 1;
 var client = new elasticsearch.Client({
   host: 'search-assignment4-au5xtwjxk3b2kxqoyvdytahkka.us-west-2.es.amazonaws.com',
   log: 'info'
