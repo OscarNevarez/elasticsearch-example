@@ -43,7 +43,7 @@ function sendData(data) {
 // fetch data every quarter hour
 function setTimer() {
   setInterval(function () {
-    fetchWaitingTimes();
+    fetchOnlineUsers();
   }, minutes * 60 * 1000)
 };
 
